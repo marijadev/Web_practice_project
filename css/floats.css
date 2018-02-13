@@ -1,0 +1,29 @@
+
+
+
+nav{
+   float: right;
+
+}
+
+
+div{
+    overflow: auto;
+    width: 960px;
+    background: rgb(143, 23, 49);
+    margin: 0 auto;
+    padding: 5px 10px;
+}
+
+
+li{
+    display:inline-block;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 0 5px;
+
+}
