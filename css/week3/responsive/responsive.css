@@ -5,6 +5,7 @@
 }
 
 #container {
+    position: relative;
     width: 90%;
     margin: 0 auto;
     text-align: center;
@@ -72,7 +73,7 @@ article {
     ul {
         position: absolute;
         top: 25px;
-        right: 5%;
+        right: 0;
         border: none;
     }
     li {
@@ -100,7 +101,7 @@ article {
     } 
 
     ul {
-        right: 25%;
+        right: 0;
     }
 
     article {
