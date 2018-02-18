@@ -307,3 +307,105 @@ footer {
 .main-copyright {
     color: #fff;
 }
+
+
+@media only screen and (max-width: 768px)  {
+    .logo-holder {
+        position: absolute;
+        top: 10px;
+        left: 25px;
+        color: #fff;
+    }
+
+    .build {
+        border-color: #fff;
+    }
+
+    .main-ul {
+        background-color: transparent;
+        position: absolute;
+        top: 20px;
+        right: 25px;
+        list-style-type: none;
+    }
+
+    .main-li {
+        display: inline-block;
+    }
+
+    h2 {
+        padding: 4%;
+        font-size: 2rem;
+        line-height: 1.5;
+    }
+
+    .section-1:after {
+        display: block;
+        content: "";
+        clear: both;
+    }
+
+    .section-1-article {
+        width: 50%;
+        float: left;
+    }
+
+    .section-1 img {
+        width: 50%;
+    }
+
+    .section-1-second-article {
+        width: 100%;
+    }
+
+    .section-2:after {
+        display: block;
+        content: "";
+        clear: both;
+    }
+
+    .comments-holder {
+        width: 48%;
+        float: left;
+        margin-right: 2%;
+    }
+
+    .section-3:after {
+        display: block;
+        content: "";
+        clear: both;
+    }
+
+    .contact-touch {
+        float: left;
+        width: 50%;
+    }
+
+    .section-4 .section-heading-holder {
+        display: none;
+    }
+
+    .house img {
+        height: 147px;
+    }
+
+    .section-5:after {
+        display: block;
+        content: "";
+        clear: both;
+    }
+
+    input {
+        float: left;
+        width: 30%;
+        margin-right: 5%;
+    }
+
+    .section-5 label:nth-of-type(3) input {
+        margin-right: 0;
+    }
+
+    input[type=submit] {
+        width: 15%;
+    }
+}
