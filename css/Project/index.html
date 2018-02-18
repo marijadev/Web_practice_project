@@ -162,21 +162,21 @@
             <span class="separator"></span>
         </div>
         <address id="mail-phone">
-            <h6 class="contact-h">CONTACT US</h6>
-            <div class="inner-mail-phone">
+            <div class="inner-contact-holder">
+                <h6 class="contact-h">CONTACT US</h6>
                 <div>
-                    <img src="./images/smartphone-call.png" alt="phone">
+                    <i class="fas fa-mobile-alt"></i>
                     <a class="phone-link" href="tel:+0(12)0001233120">+0(12) 000 123 3120</a>
                 </div>
                 <div>
-                    <img src="./images/e-mail-envelope.png" alt="phone">
+                    <i class="far fa-envelope"></i>
                     <a class="mail-link" href="mailto:mail@example.com">mail@example.com</a>
                 </div>
             </div>
         </address>
         <address id="social-networks">
-            <h6 class="contact-h">CONNECT US</h6>
-            <div id="social-holder">
+            <div class="inner-contact-holder">
+                <h6 class="contact-h">CONNECT US</h6>
                 <a href="#" class="social-link">
                     <i class="fab fa-facebook-f"></i>
                 </a>
@@ -192,8 +192,10 @@
             </div>
         </address>
         <address id="address-holder">
-            <h6 class="contact-h">ADDRESS</h6>
-            <span class="address">1680 Richmond St, Corner in, ON N58 3d7, USA</span>
+            <div class="inner-contact-holder">
+                <h6 class="contact-h">ADDRESS</h6>
+                <span class="address">1680 Richmond St, Corner in, ON N58 3d7, USA</span>
+            </div>
         </address>
     </section>
 
@@ -202,8 +204,10 @@
             <h3 class="section-heading">Who We Are</h3>
             <span class="separator"></span>
         </div>
-        <img src="./images/house.png" alt="house">
-        <iframe src="https://www.google.rs/maps/dir///@44.8159744,20.475904,15z?hl=sr" width="450" height="300" frameborder="0"></iframe>
+        <div class="house">
+            <img src="./images/house.png" alt="house">
+        </div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d11321.09755924372!2d20.475904!3d44.8159744!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ssr!2srs!4v1518946063491" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
     </section>
 
     <section class="section-5">
@@ -212,7 +216,7 @@
             <span class="separator"></span>
         </div>
 
-        <form action="#" method="post">
+        <form action="#" method="post" border="0">
             <fieldset>
                 <label for="name">
                     <input type="text" name="name" placeholder="Name">
@@ -224,11 +228,11 @@
                     <input type="text" name="phone" placeholder="Phone">
                 </label>
                 <label for="name">
-                    <textarea name="message" id="message" cols="30" rows="10" placeholder="Message"></textarea>
+                    <textarea name="message" id="message" rows="10" placeholder="Message"></textarea>
                 </label>
-                <button class="btn">
+                <a href="#" class="btn">
                     <input type="submit" name="submit" value="Submit">
-                </button>
+                </a>
             </fieldset>
         </form>
     </section>
@@ -257,7 +261,7 @@
             </ul>
         </nav>
         <div class="copyright">
-            <span>#169; Build Estate. All Rights Reserved</span>
+            <span class="main-copyright">#169; Build Estate. All Rights Reserved</span>
         </div>
     </footer>
     </main>
